@@ -1,0 +1,20 @@
+{
+  "name": "playfilm",
+  "version": "1.0.0",
+  "description": "Site que mostra o cartaz de tres dos seus filmes favoritos",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon .",
+    "init-db": "node src/db/init.js"
+  },
+  "keywords": [],
+  "author": "Caio Fiorotti",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15",
+    "sqlite": "^4.0.23",
+    "sqlite3": "^5.0.2"
+  }
+}
